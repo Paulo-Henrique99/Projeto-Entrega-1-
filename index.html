@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+</head>
+
+<body>
+
+    <a id="topo"></a>
+
+    <header>
+        <h1>Projeto 1</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este é um site de exemplo para demonstrar o uso de recursos HTML. Ele inclui listas, tabelas, formulários, estruturas textuais, imagens, vídeos e links.</p>
+        </section>
+
+        <section id="equipe">
+            <h2>Equipe</h2>
+            <ul>
+                <li><a href="link_perfil_linkedin_anapaula" target="_blank">Ana Paula</a></li>
+                <li><a href="link_perfil_linkedin_valessa" target="_blank">Valessa</a></li>
+                <li><a href="link_perfil_linkedin_emmerick" target="_blank">Emmerick</a></li>
+                <li><a href="https://www.linkedin.com/in/paulo-henrique-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-4b6865233/" target="_blank">Paulo Henrique</a></li>
+                <li><a href="https://www.linkedin.com/in/luiz-alberto-oliveira-silva/?fbclid=PAAaaqZSq9SXyknPTXCDCvUfLW2Sh77WMDfC5FQo2sq3q8HDSVQ5F-IwJsD4Q" target="_blank">Luiz Alberto</a></li>
+                <li><a href="https://www.linkedin.com/in/matheus-de-oliveira-trindade-347931186/" target="_blank"> Matheus Trindade</a></li>
+                <li><a href="link_perfil_linkedin_rangelo" target="_blank">Rângelo</a></li>
+            </ul>
+        </section>    
+    </main>
+
+    <section id="video">
+        <h2>Vídeo</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4dQtz1PpY9A?si=gU-pdHH3lDPMACic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+ 
+    <section id="imagem">
+        <h2>Imagem</h2>
+        <a href="https://arquivo.devmedia.com.br/marketing/img/guia-html-38051.png" target="_blank">
+            <img src="assets/thumb-5.jpg" width="560" height="315">
+        </a>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="enviar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Projeto 1. Todos os direitos reservados.</p>
+        <p><a href="#topo">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+
+</html>
